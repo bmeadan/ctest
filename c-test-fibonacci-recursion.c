@@ -4,7 +4,7 @@ int main()
 {
     int num;
 
-    printf("How many Fibonacci items? ");
+    printf("How many Fibonacci items would you like to see? ");
     scanf("%d", &num);
     int n = num;
     int a = 0, b = 1;
