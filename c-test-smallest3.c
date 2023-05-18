@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     int a, b, c;
 
     printf("Gimme 3 mumbers and I'll tell you the smallest: ");

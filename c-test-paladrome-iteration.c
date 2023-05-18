@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     int num, o, rev = 0, r;
 
     printf("Gimme a number: ");

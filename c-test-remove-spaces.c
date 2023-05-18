@@ -11,6 +11,7 @@ void remove_spaces(char* str) {
 }
 
 int main() {
+    
     char str[100];
 
     printf("Gimme a sentence: ");

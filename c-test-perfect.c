@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     int num, sum = 0;
 
     printf("Gimme a number: ");

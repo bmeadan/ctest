@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     int a, b, c;
 
     printf("I need 3 numbers: ");

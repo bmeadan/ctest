@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     long long num;
     int digit;
 

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int reverse(int num, int rev) {
+
     if (num == 0)
         return rev;
     else
@@ -8,6 +9,7 @@ int reverse(int num, int rev) {
 }
 
 int main() {
+    
     int num, reversed;
 
     printf("Gimme a number: ");

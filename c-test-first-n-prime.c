@@ -2,6 +2,7 @@
 #include <stdbool.h>
 
 bool is_prime(int num) {
+
     if (num <= 1)
         return false;
 
@@ -14,6 +15,7 @@ bool is_prime(int num) {
 }
 
 int main() {
+    
     int n, count = 0, num = 2;
 
     printf("Uri, how many primeys do ya want? ");

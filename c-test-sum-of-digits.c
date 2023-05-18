@@ -16,4 +16,5 @@ int main() {
     printf("Sum: %d\n", sum_of_digits(num));
 
     return 0;
+    
 }

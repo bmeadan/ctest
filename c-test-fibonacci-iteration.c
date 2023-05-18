@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     int num, a = 0, b = 1, n;
 
     printf("How many Fibonacci items would ya like to see? ");

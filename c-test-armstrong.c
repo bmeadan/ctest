@@ -2,6 +2,7 @@
 #include <math.h>
 
 int main() {
+    
     // o = original number given, r = remainder left
     int num, o, r, result = 0, n = 0;
 

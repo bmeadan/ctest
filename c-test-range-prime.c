@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     int s, l;
 
     printf("Enter the smallest and largest prime numbers that you want: ");

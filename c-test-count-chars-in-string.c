@@ -11,6 +11,7 @@ int count_it(const char* str, char c) {
 }
 
 int main() {
+    
     char str[100], c;
 
     printf("Gimme some words (keep it clean): ");

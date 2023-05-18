@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void prime_factors(int num) {
+
     for (int i = 2; i * i <= num; i++) {
         while (num % i == 0) {
             printf("%d, ", i);
@@ -13,6 +14,7 @@ void prime_factors(int num) {
 }
 
 int main() {
+    
     int num;
 
     printf("Gimme a number, dude: ");

@@ -24,4 +24,5 @@ int main() {
     printf("Average: %.2f\n", avg);  // Give me the average
 
     return 0;
+    
 }

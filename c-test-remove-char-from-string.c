@@ -2,6 +2,7 @@
 #include <string.h>
 
 void remove_char(char* str, char c) {
+
     int i = 0, j = 0;
 
     while (str[i]) {
@@ -14,6 +15,7 @@ void remove_char(char* str, char c) {
 }
 
 int main() {
+    
     char str[100], c;
 
     printf("Gimme some words: ");

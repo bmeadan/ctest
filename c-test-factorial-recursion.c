@@ -8,6 +8,7 @@ unsigned long long f(int n) {
 }
 
 int main() {
+    
     int n;
 
     printf("Gimme a number: ");

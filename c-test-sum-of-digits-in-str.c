@@ -12,8 +12,6 @@ int main()
     fgets(str, sizeof(str), stdin);
 
 
-
-
     for (i= 0; str[i] != '\0'; i++)
     {
         if ((str[i] >= '0') && (str[i] <= '9'))
@@ -23,7 +21,6 @@ int main()
 
         }
     }
-
 
     printf("Sum of all digits (that's digits, not numbers):\n%d", sum);
     return 0;
