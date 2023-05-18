@@ -15,9 +15,9 @@ int main() {
     }
 
     if (o == rev)
-        printf("%d is a palindrome\n", o);
+        printf("%d is surely a palindrome\n", o);
     else
-        printf("%d is not a palindrome\n", o);
+        printf("%d is surely not a palindrome\n", o);
 
     return 0;
 }

@@ -15,7 +15,7 @@ void prime_factors(int num) {
 int main() {
     int num;
 
-    printf("Enter an integer: ");
+    printf("Gimme a number, dude: ");
     scanf("%d", &num);
 
     printf("Prime factors: ");

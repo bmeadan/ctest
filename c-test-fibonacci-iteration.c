@@ -3,7 +3,7 @@
 int main() {
     int num, a = 0, b = 1, n;
 
-    printf("How many Fibonacci items? ");
+    printf("How many Fibonacci items would ya like to see? ");
     scanf("%d", &num);
 
     printf("F-Series: ");

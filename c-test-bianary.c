@@ -11,14 +11,14 @@ int main() {
         digit = num % 10;
 
         if (digit != 0 && digit != 1) {
-            printf("The number is not binary\n");
+            printf("The number is non-binary\n");
             return 0;
         }
 
         num /= 10;
     }
 
-    printf("The number is binary\n");
+    printf("The number is binary, and that is okay too.\n");
 
     return 0;
 }

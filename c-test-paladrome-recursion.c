@@ -10,15 +10,15 @@ int reverse(int num, int rev) {
 int main() {
     int num, reversed;
 
-    printf("Enter an integer: ");
+    printf("Gimme a number: ");
     scanf("%d", &num);
 
     reversed = reverse(num, 0);
 
     if (num == reversed)
-        printf("%d is a palindrome\n", num);
+        printf("%d is definately a palindrome\n", num);
     else
-        printf("%d is not a palindrome\n", num);
+        printf("%d is really not a palindrome. Try again.\n", num);
 
     return 0;
 }

@@ -3,15 +3,15 @@
 int main() {
     int a, b, c;
 
-    printf("Enter two integers: ");
+    printf("Gimme 2 nums please: ");
     scanf("%d %d", &a, &b);
 
-    printf("Before swapping: a = %d, b = %d\n", a, b);
+    printf("Pre-swap: a = %d, b = %d\n", a, b);
 
     c = a;
     a = b;
     b = c;
 
-    printf("After swapping: a = %d, b = %d\n", a, b);
+    printf("Post-swap: a = %d, b = %d\n", a, b);
 
     return 
